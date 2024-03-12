@@ -1,0 +1,36 @@
+.skill-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.text-skills{
+    margin-left: 20px;
+    margin-top: 100px;
+    background-color: rgb(255, 255, 255);
+}
+.images-skills{
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 70px;
+    margin-top: 100px;
+    width: 800px;   
+    background-color:rgb(255, 255, 255);
+}
+.box{
+    margin-left: 45px;  
+    background-color: rgb(255, 255, 255);
+}
+.box img{
+    background-color: white;
+    color: white;
+    width: 100px;
+}
+.box:hover{
+    cursor:pointer;
+    transform: scale(1.05);
+    transition: 0.6s;
+}

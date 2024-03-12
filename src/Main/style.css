@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+.home{    
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    margin-left: 200px;
+    font-family: 'Jockey One', sans-serif;
+}
+.first-title{
+    font-size: 30px;
+}
+.first-title{
+    font-size: 30px;
+    margin-top: -20px;
+    border-right:4px solid;
+    width: 15ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(20),blinking 0.5s infinite 
+    alternate step-end;
+}
+@keyframes typing{
+    from {
+        width: 0;
+    }
+}
+@keyframes  blinking{
+ 50%{
+    border-color: transparent;
+ }
+ 
+}
+.home-main{
+   width: 34em;
+}
+.home-main h1{
+    font-size: 90px;
+}
+.home p {
+   margin-top: 177px;    
+   margin-right: 80px;
+   font-size: 25px;
+}
+.icons{
+    margin-left: 25rem;
+    margin-top: -205px;
+}
+.icons a{
+    color: #000000;
+    margin: 5px;
+}
+.icon-linkedin:hover{
+    transform: scaleY(30px);
+}   
+.icon-github:hover{
+    transform: scaleY(10px);
+} 
+.icon-pi:hover{
+    transform: scaleY(10px);
+    transition: ease-in;
+}   
+
+@media screen and (max-width:999px) {
+    /*.container{
+        display:flex;
+        flex-direction: column;
+    }
+    .home{
+        margin-left: -100px;
+    }
+    .icons{
+        flex-direction: column;
+        gap: 10px;
+    }*/
+
+}
+
+
+

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+
+.mockup-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 290px;
+    font-size: 30px;
+    width: 100%;
+    background: linear-gradient(0deg, #000000,rgb(55, 54, 54));
+    color: #ffffff;
+    align-items: center;
+    padding-left: 20px;
+    font-family: 'Jockey One', sans-serif;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+a:hover{
+    color: #000000;
+}
+.mockup-container h1{
+    margin-top: 100px;
+}
+.mockups-photo{
+    display: flex;
+    flex-direction: row;
+}
+.mockup-left {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: -20px;
+    width: 50%;
+    align-items: center;
+    margin-top: -29px;
+    font-size: 19px;
+}
+.mockup-left h1{
+    font-size: 30px;
+}
+.mockup-left p {
+    margin-top: -30px;
+    padding-left: 30px;
+}
+.botoes {
+    display: flex;
+    flex-direction: row;
+    margin: 13px;
+    justify-content: space-between;
+}
+.mockup-left img{
+    margin-top: 40px;
+    width: 500px;
+    height: 470px;
+}
+.mockup-left button{
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid rgb(255, 255, 255);
+    width: 190px;
+    margin-left: 20px;
+}
+.mockup-left button:hover{
+    background-color: #ffffff;
+    color: #000000;
+    transition: 0s ease-in ;
+}
+.mockup-right{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    margin-left: 300px;
+    align-items: center;
+    margin-top: -29px;
+    font-size: 19px;
+
+}
+.mockup-right img{
+    width: 200px;
+    height: 300px;
+}
+.mockup-right h1{
+    font-size: 28px;
+}
+.mockup-right button{
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid rgb(255, 255, 255);
+    width: 200px;
+}
+.mockup-right button:hover{
+    background-color: #ffffff;
+    color: #000000;
+    transition: 0s ease-in;
+}
